@@ -21,10 +21,7 @@ We conduct a series of ablation studies to assess how different model finetuning
 │   ├── finetuned_llm_db1/       # RAG pipeline: finetuned LLM with database 1
 │   └── finetuned_llm_db2/       # RAG pipeline: finetuned LLM with database 2
 │
-├── services/                    # Modular service classes for preprocessing, evaluation, etc.
-├── utils/                       # Utility functions
 ├── requirements.txt             # Python package requirements
-├── main.py                      # Entry point for running experiments
 └── README.md
 ```
 
@@ -34,7 +31,7 @@ We conduct a series of ablation studies to assess how different model finetuning
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/domain-adaptive-llm.git
+   git clone https://github.com/aliai22/domain-specific-interpretable-rag
    cd domain-adaptive-llm
    ```
 
@@ -73,7 +70,7 @@ We conduct a series of ablation studies to assess how different model finetuning
 
 ## 👤 Author
 
-Developed and maintained by **[Your Name]**
+Developed and maintained by **Muhammad Ali**
 
 ---
 
