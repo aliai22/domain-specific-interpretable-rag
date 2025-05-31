@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# Mac and Linux system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.out
+
+# Cache files
+.cache/
+*.cache
+
+# Model training artifacts
+checkpoints/
+runs/
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.joblib
+
+# Transformers / HuggingFace cache
+~/.cache/huggingface/
+~/.huggingface/
+
+# Datasets
+data/
+datasets/
+*.jsonl
+*.json
+*.csv
+*.tsv
+
+# Finetuned model outputs and intermediate files
+finetuning_embeddModel/
+*/train_dataset.json
+*/test_dataset.json
+
+# Temporary files and OS clutter
+*.bak
+*.tmp
+*.swp
+*.swo
+*.orig
+
+# Trainer state and evaluation logs
+**/trainer_state.json
+**/training_args.bin
+**/eval_results.json
+**/checkpoint-*/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook runtime
+.ipython/
+
+# Plotting files
+*.png
+*.jpg
+*.svg
+*.pdf
+
+# Secret or config files
+secrets.*
+config.*
